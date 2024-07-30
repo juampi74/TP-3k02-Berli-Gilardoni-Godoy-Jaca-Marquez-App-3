@@ -14,10 +14,10 @@ import { ApiService } from '../service/api.service';
   providers: [ApiService],
 })
 export class FormFloatingComponent {
-  nombre = '';
-  apellido = '';
   tipoDoc = '';
   nroDoc = '';
+  nombre = '';
+  apellido = '';
   mail = '';
   fechaNacimiento = '';
   domicilio = '';
